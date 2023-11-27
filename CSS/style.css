@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{ font-family: 'Roboto', sans-serif; font-size: 16px; color: aqua ;margin: 0
+}
+header{   width: 100%;height: 70px; background-color: #A7A2A2 }
+.banner{
+    width: 100%; min-height: 500px; background-color: red    
+}
+aside{
+    width: 100%;min-height: 500px;
+}
+main{
+    width: 100%;min-height: 500px;
+}
+footer{
+    width: 100%;min-height: 200px;background-color: #A7A2A2
+}
+.logo{
+    padding-top: 8px
+}
+.menu{
+    padding-top: 25px
+}
+.menu ul{
+    margin: 0px;padding: 0px;list-style: none;display: flex
+}
+.menu ul li a{
+    padding: 10px 20px ;text-decoration: none;font-size: 20px;color: #5B5959;text-transform: uppercase;border-radius: 20px
+}
+.menu ul li a:hover{
+    background-color: darkred; color: white
+}
+.text-do{
+ font-size:25px; color: darkred;
+}
+aside ul{
+	margin: 0px;padding: 0px;list-style: none; display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #66666666
+}
+aside ul li a{
+	text-decoration: none;padding: 10px;display: block;color: #6666666
+}
+aside ul li a:hover{
+	background-color: darkred; color: white;
+}
+.text-den{
+	color: black
+}
+.text-center{
+	text-align: center
+}
+footer a{
+	color: #4E4E4E
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column;
+}
+footer ul li a{
+	text-decoration: none;padding: 5px;display: block;color: #666666;
+}
+footer ul li a:hover{
+	color: black; font-size: 20px;
+}
+.icon-size{
+	margin: 23px; padding: 0;width: 60px; height: auto;
+}
+.text-center{
+	text-align: center
+}
